@@ -5,7 +5,7 @@ export const profilesData = [
     slug: 'vasily-argunov',
     isPrimary: true,
     name: 'Vasily Argounov',
-    title: 'Backend Developer · PHP 8 / 1C-Bitrix · TypeScript · Python',
+    title: 'Backend Developer, PHP & TypeScript · ex-computational linguist',
     description: [
       'Almaty (UTC+5); open to remote, hybrid or relocation; full-time, part-time or contract.',
       'Backend developer: PHP 8 and TypeScript (Node, NestJS), Laravel/Symfony, PostgreSQL/MySQL. Three years on e-commerce backends - ERP↔web sync for a 400,000-SKU catalog, SQL performance work, CRM and REST integrations, page-load cuts of 40-50% across international storefronts.',
