@@ -7,9 +7,9 @@ export const profilesData = [
     name: 'Vasily Argounov',
     title: 'Backend Developer · PHP 8 / 1C-Bitrix · TypeScript · Python',
     description: [
-      'I build e-commerce backends on PHP 8 and 1C-Bitrix (D7) - 1C integrations, SQL performance, catalog tooling for 400,000+ SKUs - and work in TypeScript (Node, NestJS) and Laravel as well.',
-      'Before that, I spent three and a half years as a researcher in computational linguistics, processing large text corpora in Python.',
-      "I'm open to full-time, part-time, and project work, in any format (on-site, hybrid, remote). Based in Almaty, happy to travel or relocate.",
+      'Almaty (UTC+5); open to remote, hybrid or relocation; full-time, part-time or contract.',
+      'Backend developer: PHP 8 and TypeScript (Node, NestJS), Laravel/Symfony, PostgreSQL/MySQL. Three years on e-commerce backends - ERP↔web sync for a 400,000-SKU catalog, SQL performance work, CRM and REST integrations, page-load cuts of 40-50% across international storefronts.',
+      'Before that, 3.5 years as a computational-linguistics researcher processing large text corpora in Python.',
     ].join('\n\n'),
     location: 'Almaty, Kazakhstan',
     email: 'vasyapym@gmail.com',
