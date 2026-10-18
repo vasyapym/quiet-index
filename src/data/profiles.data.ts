@@ -49,7 +49,8 @@ export const profilesData = [
         achievements: [
           '1C ↔ website sync over CommerceML: catalog, stock, prices',
           'Product mapping for the customer account area (400k+ items, 250+ categories)',
-          'Fixed N+1 queries and slow pagination COUNTs across the site',
+          'Fixed N+1 queries and slow pagination COUNTs; added Redis caching for catalog and filter queries',
+          'Covered import/sync logic with PHPUnit tests',
           'Admin audit tools for catalog data completeness (30k+ items)',
           'IP geolocation; site forms → Bitrix24 CRM via REST',
           'Rolled out an AI-agent-assisted workflow to the team',
@@ -63,10 +64,10 @@ export const profilesData = [
         description: 'Optics manufacturer; several international storefronts on 1C-Bitrix.',
         achievements: [
           'PHP modules for smart filters, bulk photo upload by 1C code, catalog property management',
-          'Homepage: 2,445 ms → 1,432 ms (−41%), page weight −37%, JS files 23 → 13',
+          'Homepage: 2,445 ms → 1,432 ms (−41%), page weight −37%, JS files 23 → 13 — deferred and merged JS, image optimization (WebP/AVIF, lazy loading), caching',
           'Product page: weight −50%, server requests −21%',
           'Metadata generation system (H1–H3, Title, Description) for several group sites',
-          'Templates and components for four sites',
+          'Templates and components for four sites; multi-language / multi-currency catalog work',
         ],
       },
       {
