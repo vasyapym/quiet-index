@@ -2,6 +2,10 @@
 
 For a vault big enough that keyword search stops finding things: semantic and full-text search over a private Obsidian vault, in Postgres, from a phone, behind a passphrase.
 
+<p align="center">
+  <img src="docs/IMG_4525.jpg" alt="search for &quot;cat simulation&quot; on the reader: ranked notes with highlighted matches" width="380" />
+</p>
+
 Where things go when it runs, and where they stop:
 
 | | Goes to | Stops at |
